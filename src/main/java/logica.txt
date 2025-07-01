@@ -1,0 +1,34 @@
+Desafio Java - API REST - GERENCIADOR DE PEDIDOS E-COMMERCE
+
+A aplicação deve atender os seguintes requisitos, Permitir cadastro de produto, cliente e pedidos, fornecer relatório basicos().
+
+Requisitos Funcionais
+Gestão de Produto (Entity Produto)
+    Criar, listar, atualizar e deletar produtos
+    Cadas produto deve ter ID, nome, descrição, preço, quantidade em estoque(Colunas da entidade)
+    Validar se há estoque dispínel antes de processar pedido (Regra de negócio)
+Gestão de Cliente (Entity Cliente)
+    Criar e listar cliente (Deletar cliente?)
+    Cada cliente deve possuir ID, nome, e-mail, CPF, Endereço(Colunas da Entidade)
+    Obs: Nenhum regra de negócio definida.
+Gestão de Pedidos (Entity Pedidos)
+    Criar pedidos associando cliente e produto(definir os relacionamentos)
+    Listar pedidos com Filtro (por cliente, por pedido, por Status)
+    Atualizar Status do Pedido(PENDENTE, PROCESSANDO, CONLUIDO, CANCELADO) (regra de negócio)
+    Calcular valor total do pedido automaticamente (Regra de negócio)
+    Reduzir estoque ao confirmar pedido (Regra de negócio)
+Relatório
+    Listar pedidos mais vendidos
+    Listar valor total de Vendas por Periodo
+
+ESTRUTURANDO A ARQUITETURA DO PROJETO
+O desafio exigem que sigamos a estrutura de pastas abaixo:
+Controller (Lidas com as requisições REST)
+Service (Regras de negócio)
+Repository (Regras do banco de dados)
+Entity (Entidades do banco de dados)
+dto (Tranferencia de objetos entre camadas)
+exception (Handler de erros)
+config (configurações)
+util (Classes auxiliares)
+
