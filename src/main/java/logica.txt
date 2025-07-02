@@ -18,7 +18,7 @@ Gestão de Pedidos (Entity Pedidos)
     Calcular valor total do pedido automaticamente (Regra de negócio)
     Reduzir estoque ao confirmar pedido (Regra de negócio)
 Relatório
-    Listar pedidos mais vendidos
+    Listar pedidos mais vendido
     Listar valor total de Vendas por Periodo
 
 ESTRUTURANDO A ARQUITETURA DO PROJETO
