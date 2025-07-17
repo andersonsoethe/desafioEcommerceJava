@@ -29,7 +29,7 @@ public class ProdutoMapper {
         Produto produto = new Produto();
         produto.setId(dto.getId());
         produto.setName(dto.getName());
-        produto.setDescricao(produto.getDescricao());
+        produto.setDescricao(dto.getDescricao());
         produto.setPreco(dto.getPreco());
         produto.setQuantidade(dto.getQuantidade());
 
