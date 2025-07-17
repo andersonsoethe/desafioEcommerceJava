@@ -1,4 +1,4 @@
-package com.example.desafioAPI.entity;
+package com.example.desafioApi.entity;
 
 import java.math.BigDecimal;
 
@@ -18,8 +18,10 @@ public class Produto {
     private String name;
     private String descricao;
     private BigDecimal preco;
-    private int quantidade;
+    private Integer quantidade;
 
+    public Long getId() {return id;}
+    public void setId(Long id) { this.id = id;}
     public String getName() {
         return name;
     }
@@ -38,10 +40,10 @@ public class Produto {
     public void setPreco(BigDecimal preco) {
         this.preco = preco;
     }
-    public int getQuantidade() {
+    public Integer getQuantidade() {
         return quantidade;
     }
-    public void setQuantidade(int quantidade) {
+    public void setQuantidade(Integer quantidade) {
         this.quantidade = quantidade;
     }
 }

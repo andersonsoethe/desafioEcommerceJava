@@ -1,4 +1,4 @@
-package com.example.desafioAPI;
+package com.example.desafioApi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

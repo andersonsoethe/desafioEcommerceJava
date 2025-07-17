@@ -1,4 +1,4 @@
-package com.example.desafioAPI;
+package com.example.desafioApi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
