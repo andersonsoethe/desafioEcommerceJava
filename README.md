@@ -12,14 +12,10 @@ Este projeto consiste em uma API RESTful desenvolvida em **Java com Spring Boot*
   - [Gestão de Clientes](#gestão-de-clientes-entity-cliente)
   - [Gestão de Pedidos](#gestão-de-pedidos-entity-pedido)
   - [Relatórios](#relatórios)
-3. [Estrutura de Pastas](#estrutura-de-pastas)
-4. [Tecnologias Utilizadas](#tecnologias-utilizadas)
-5. [Como Executar o Projeto](#como-executar-o-projeto)
-6. [Endpoints Principais](#endpoints-principais)
-7. [Testes](#testes)
-8. [Melhorias Futuras](#melhorias-futuras)
-9. [Autor](#autor)
-10. [Licença](#licença)
+3. [Tecnologias Utilizadas](#tecnologias-utilizadas)
+4. [Como Executar o Projeto](#como-executar-o-projeto)
+5. [Autor](#autor)
+6. [Licença](#licença)
 
 ---
 ## Objetivo
